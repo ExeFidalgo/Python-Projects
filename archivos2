@@ -1,0 +1,4 @@
+with open ("archivito.txt", "r") as f:
+    for i in f:
+        arch = f.readline()
+        print(arch)
